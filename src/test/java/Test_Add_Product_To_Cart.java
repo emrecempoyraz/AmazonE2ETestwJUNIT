@@ -36,7 +36,6 @@ public class Test_Add_Product_To_Cart extends BaseTest{
     public void add_product_to_cart (){
         productDetailPage.addToCart();
         Assertions.assertTrue(homePage.isProductCountUp(),"Product count did not increase!");
-
     }
 
     @Test
